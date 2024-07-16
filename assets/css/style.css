@@ -1,0 +1,497 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    color: #42170D;;
+}
+
+.hero-container{
+    background-image: url('/assets/images/5197213.jpg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 650px;
+}
+
+.navbar{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo{
+    margin-left: 30px;
+}
+
+.nav-lists ul{
+    display: flex;
+    margin-top: 20px;
+}
+
+.nav-lists ul li{
+    margin: 30px;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.nav-lists ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-lists .active a{
+ color: #FFCC40;
+ text-decoration: underline;
+ text-underline-offset: 20px;
+ 
+}
+
+
+
+.hero-content-container{
+     margin-top: 40px;
+     display: flex;
+     justify-content: space-between;
+}
+.hero-head{
+    margin-left: 80px;
+    text-align: center;
+    color: white;
+}
+
+
+.hero-head h1{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.hero-head p{
+    margin-top: 15px;
+}
+
+.hero-image{
+    margin-left: 80px;
+}
+
+.hero-btn{
+    margin-top: 30px;
+}
+
+.btn{
+    padding: 15px;
+    border: 3px solid;
+    border-color: rgb(40, 5, 5);
+    box-shadow: 8px 0px 8px 2px;
+    color: rgb(40, 5, 5);
+    font-weight: bold;
+}
+
+.mexican-food-container{
+    background-color: #FFF9E9;
+    padding-bottom: 100px;
+}
+
+.mexican-food-head{
+    padding-top: 80px;
+    text-align: center;
+}
+
+.mexican-food-head h2{
+    font-size: 40px;
+    margin-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+}
+
+.mexican-food-head h1{
+    font-size: 45px;
+    margin-top: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.mexican-bg-inner{
+    margin-top: 50px;
+    background-image: url('/assets/images/foodtruck2-sectionbg-1.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+
+.food-truck-special-container{
+    display: flex;
+    margin-left: 20px;
+}
+
+.food-truck-box{
+    border: 1px dotted lightgray;
+    width: 370px;
+    padding-bottom: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #FFF9E9;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+}
+
+.special-color{
+    color: red;
+}
+
+.food-truck-box img{
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.food-truck-box h1{
+    margin-bottom: 20px;
+}
+
+.only-food-container{
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.only-food{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.only-food h2{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.only-food h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    color: red;
+    margin-bottom: 30px;
+}
+
+.only-food p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.8rem;
+}
+
+.only-food-bottom-image{
+    margin-top: 40px;
+}
+
+.first-image{
+    background-color: red;
+    height: 550px;
+    width: 350px;
+}
+
+.first-image img{
+    margin-top: 180px;
+    margin-left: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);    
+}
+
+.first-image-container {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.second-image-container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.our-special-container{
+    display: flex;
+}
+
+
+.our-special-content{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.our-special-content h2{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.our-special-content h1{
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.our-special-content p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5rem;
+}
+
+
+.special-box-container{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.special-box{
+    border: 2px dotted lightgray;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 50px;
+    margin-top: 15px;
+    
+}
+
+.special-box h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+
+.special-box p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.special-box:hover{
+    border-color: red;
+}
+
+.special-btn{
+    margin-top: 50px;
+    margin-left: 40px;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border: 4px solid;
+    border-color: #42170D;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 3px 3px 3px 3px #D6B5C2;
+    font-weight: bold;
+}
+
+.special-btn:hover{
+    background-color: #42170D;
+    color: white;
+}
+
+
+.place-container{
+    background-color: #FFCC40;
+    padding-bottom: 150px;
+    padding-left: 40px;
+}
+
+.place-content{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.place-head h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.place-head p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5rem;
+}
+
+
+.bottom-btn{
+    margin-left: 1px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 3px 3px 3px 3px #D6913D;
+
+}
+
+.upcoming-container{
+    margin-top: 80px;
+}
+
+.upcoming-container h3{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+.place-box-container{
+    margin-top: 30px;
+    display: flex;
+}
+.place-box{
+    border: 2px solid black;
+    padding-bottom: 30px;
+    width: 280px;
+    display: flex;
+    margin-left: 14px;
+
+}
+
+
+.place-box img{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.vertical-line{
+    border-left: 2px solid black;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.place-box p{
+    margin-top: 30px;
+    margin-left: 20px;
+    line-height: 1.8rem;
+    font-size: 20px;
+}
+
+
+.love-of-cooking{
+    background-color: #780A34;
+    padding-bottom: 100px;
+}
+
+.love-of-cooking-head{
+    padding-top: 80px;
+    text-align: center;
+    color: white;
+}
+
+.love-of-cooking-head h1{
+ font-size: 50px;
+ margin-top: 20px;
+ margin-bottom: 30px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.love-of-cooking p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.8rem;
+}
+
+.cooking-container{
+ display: flex;
+ margin-top: 30px;
+justify-content: center;
+}
+
+.cooking-content{
+    margin-bottom: 60px;
+}
+
+.cooking-content-left{
+    margin-right: 80px;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+.cooking-content-right{
+    margin-right: 80px;
+    margin-top: 150px;
+}
+
+.cooking-content{
+    text-align: center;
+    color: white;
+}
+
+.cooking-content h1{
+    font-family: cursive;
+    margin-bottom: 10px;
+
+}
+
+
+.img-divider-bottom{
+    background-image: url('/assets/images/foodtruck2-decor1.webp');
+    height: 20px;
+}
+
+
+.footer-container{
+    background-color: red;
+    padding-bottom: 100px;
+}
+
+.footer-row{
+    padding-top: 50px;
+    margin-left: 0px;
+    display: flex;
+    color: white;
+}
+
+.footer-list{
+    margin-left: 80px;
+}
+
+.footer-list h1{
+    margin-bottom: 20px;
+}
+.footer-list p{
+    font-family: cursive;
+}
+
+.address p{
+    margin-top: 15px;
+}
+
+
+.footer-list ul li{
+    margin-top: 15px;
+    list-style: none;
+    
+}
+
+.footer-list ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+
+.footer-list ul li a:hover{
+    color: #FFCC40;
+    text-decoration: underline;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
